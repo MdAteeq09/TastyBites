@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ras Malai Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Ras Malai</h1>
+        <img src="../images/rasmali.jpg" alt="Ras Malai" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Dessert</p>
+            <p><strong>Prep Time:</strong> 30 mins | <strong>Cook Time:</strong> 45 mins</p>
+            <p><strong>Servings:</strong> 4–5</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>1 liter Full-Fat Milk (for paneer)</li>
+                <li>2 tbsp Lemon Juice or Vinegar</li>
+                <li>1 cup Sugar (for syrup)</li>
+                <li>4 cups Water</li>
+                <li>1/4 tsp Cardamom Powder</li>
+                <li>1/2 liter Full-Fat Milk (for rabri)</li>
+                <li>3 tbsp Sugar (for rabri)</li>
+                <li>A few Saffron Strands</li>
+                <li>Chopped Pistachios & Almonds (for garnish)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Boil 1 liter of milk. Add lemon juice to curdle it. Strain and wash to make soft paneer (chhena).</li>
+                <li>Knead the chhena into a soft dough. Divide and shape into small flattened balls.</li>
+                <li>Boil water and sugar in a wide pan. Add the chhena balls and cook for 15 minutes until they puff up. Let them cool in the syrup.</li>
+                <li>In another pan, boil 1/2 liter milk and simmer to thicken into rabri. Add sugar, saffron, and cardamom.</li>
+                <li>Gently squeeze the chhena balls and transfer them into the prepared rabri. Chill for a few hours.</li>
+                <li>Garnish with nuts and serve cold.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

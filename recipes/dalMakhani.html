@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dal Makhani Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Dal Makhani</h1>
+        <img src="../images/dalmakhani.jpg" alt="Dal Makhani" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Dinner</p>
+            <p><strong>Prep Time:</strong> 15 mins (plus soaking) | <strong>Cook Time:</strong> 45 mins</p>
+            <p><strong>Servings:</strong> 4</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>1/2 cup Whole Black Urad Dal (Black Lentils)</li>
+                <li>2 tbsp Rajma (Kidney Beans)</li>
+                <li>1 Onion (finely chopped)</li>
+                <li>2 Tomatoes (pureed)</li>
+                <li>1 tsp Ginger-Garlic Paste</li>
+                <li>2 tbsp Butter</li>
+                <li>1 tbsp Fresh Cream</li>
+                <li>1 tsp Cumin Seeds</li>
+                <li>1/2 tsp Red Chili Powder</li>
+                <li>1/2 tsp Garam Masala</li>
+                <li>Salt to taste</li>
+                <li>Water as required</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Soak urad dal and rajma overnight. Pressure cook with water and salt until soft.</li>
+                <li>Heat butter in a pan, add cumin seeds, then onions. Sauté till golden.</li>
+                <li>Add ginger-garlic paste, sauté for a minute, then add tomato puree and spices.</li>
+                <li>Cook until oil separates, then add cooked dal and rajma with water as needed.</li>
+                <li>Simmer on low heat for 20–25 mins. Stir occasionally and mash a little for creaminess.</li>
+                <li>Stir in fresh cream and cook for 5 more mins.</li>
+                <li>Serve hot with rice or naan, topped with butter or extra cream if desired.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paneer Bhurji Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Paneer Bhurji</h1>
+        <img src="../images/paneerbhurji.jpg" alt="Paneer Bhurji" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Gym Lovers</p>
+            <p><strong>Prep Time:</strong> 10 mins | <strong>Cook Time:</strong> 15 mins</p>
+            <p><strong>Servings:</strong> 2–3</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>200g Paneer (crumbled)</li>
+                <li>1 tbsp Oil or Butter</li>
+                <li>1 Onion (finely chopped)</li>
+                <li>1 Tomato (finely chopped)</li>
+                <li>1 Green Chili (finely chopped)</li>
+                <li>1/2 tsp Ginger-Garlic Paste</li>
+                <li>1/4 tsp Turmeric Powder</li>
+                <li>1/2 tsp Red Chili Powder</li>
+                <li>1/2 tsp Garam Masala</li>
+                <li>Salt to taste</li>
+                <li>Fresh Coriander (chopped)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Heat oil in a pan. Add chopped onions and sauté until golden.</li>
+                <li>Add ginger-garlic paste and green chili, sauté for a minute.</li>
+                <li>Add chopped tomatoes and cook until soft.</li>
+                <li>Now add turmeric, red chili powder, garam masala, and salt. Mix well.</li>
+                <li>Add crumbled paneer and mix everything gently. Cook for 2–3 minutes.</li>
+                <li>Garnish with chopped coriander and serve hot with roti or bread.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

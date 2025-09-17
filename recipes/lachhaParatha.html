@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lachha Paratha Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Lachha Paratha</h1>
+        <img src="../images/lachhaparatha.jpg" alt="Lachha Paratha" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Dinner</p>
+            <p><strong>Prep Time:</strong> 20 mins | <strong>Cook Time:</strong> 15 mins</p>
+            <p><strong>Servings:</strong> 2–3</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>2 cups Whole Wheat Flour</li>
+                <li>2 tbsp Oil or Ghee</li>
+                <li>Salt to taste</li>
+                <li>Water (as needed for dough)</li>
+                <li>Extra Ghee for layering and roasting</li>
+                <li>Dry Flour for rolling</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Mix wheat flour, salt, and water to form a soft dough. Rest for 20 mins.</li>
+                <li>Divide into balls. Roll one into a thin roti. Apply ghee and dust with flour.</li>
+                <li>Make pleats like a fan, roll into a spiral, and flatten again into a circle.</li>
+                <li>Heat tawa and roast on both sides with ghee until golden and crispy layers form.</li>
+                <li>Press gently to open the layers. Serve hot with curry or curd.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

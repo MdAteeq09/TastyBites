@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paratha Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Paratha</h1>
+        <img src="../images/paratha .jpeg" alt="Paratha" class="recipe-img">
+
+        <div class="recipe-info">
+            <p><strong>Category:</strong> Lunch</p>
+            <p><strong>Prep Time:</strong> 20 mins | <strong>Cook Time:</strong> 15 mins</p>
+            <p><strong>Servings:</strong> 3–4</p>
+
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>2 cups Whole wheat flour</li>
+                <li>Water (as needed to knead dough)</li>
+                <li>Salt to taste</li>
+                <li>1 tbsp Oil or ghee (for dough)</li>
+                <li>Ghee or butter (for roasting)</li>
+                <li>Optional stuffing: Boiled potatoes, paneer, or vegetables</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Mix wheat flour, salt, oil, and water to make a soft dough. Rest for 15–20 mins.</li>
+                <li>Divide into equal balls. Roll one ball into a circle using a rolling pin.</li>
+                <li>Add stuffing if using. Fold and seal edges, then roll again gently.</li>
+                <li>Heat a tawa/pan and cook paratha on both sides using ghee or butter until golden brown.</li>
+                <li>Serve hot with curd, pickle, or chutney.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

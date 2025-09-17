@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheer Kurma Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Sheer Kurma</h1>
+        <img src="../images/sheerkuhrma.jpg" alt="Sheer Kurma" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Dessert</p>
+            <p><strong>Prep Time:</strong> 15 mins | <strong>Cook Time:</strong> 30 mins</p>
+            <p><strong>Servings:</strong> 4–5</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>1/4 cup Vermicelli (seviyan)</li>
+                <li>2 tbsp Ghee</li>
+                <li>1 liter Full Cream Milk</li>
+                <li>1/4 cup Sugar (adjust to taste)</li>
+                <li>6–8 Dates (chopped)</li>
+                <li>2 tbsp Mixed Nuts (almonds, cashews, pistachios, chopped)</li>
+                <li>1 tbsp Raisins</li>
+                <li>1/2 tsp Cardamom Powder</li>
+                <li>2 tbsp Condensed Milk (optional, for richness)</li>
+                <li>Rose Water or Kewra Essence (optional)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Heat ghee in a pan. Roast vermicelli until golden brown. Remove and keep aside.</li>
+                <li>In the same ghee, lightly fry chopped nuts, raisins, and dates. Set aside.</li>
+                <li>Boil milk in a heavy-bottomed pan. Simmer and stir for 10–15 minutes until it thickens slightly.</li>
+                <li>Add roasted vermicelli and cook until soft (5–7 mins).</li>
+                <li>Add sugar, cardamom powder, and condensed milk. Mix well.</li>
+                <li>Stir in the fried dry fruits and dates.</li>
+                <li>Simmer for another 5 minutes. Add rose water or kewra essence if using.</li>
+                <li>Serve warm or chilled, as preferred.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+
+</body>
+
+</html>

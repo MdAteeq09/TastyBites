@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paneer Butter Masala Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Paneer Butter Masala</h1>
+        <img src="../images/pbm.jpeg" alt="Paneer Butter Masala" class="recipe-img">
+
+        <div class="recipe-info">
+            <p><strong>Category:</strong> Lunch</p>
+            <p><strong>Prep Time:</strong> 15 mins | <strong>Cook Time:</strong> 25 mins</p>
+            <p><strong>Servings:</strong> 4</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>200g Paneer (cubed)</li>
+                <li>2 tbsp Butter</li>
+                <li>1 tbsp Oil</li>
+                <li>1 cup Tomato puree</li>
+                <li>1 Onion (finely chopped)</li>
+                <li>1 tbsp Ginger-garlic paste</li>
+                <li>1/4 cup Fresh cream</li>
+                <li>1 tsp Garam masala</li>
+                <li>1 tsp Red chili powder</li>
+                <li>1/2 tsp Turmeric</li>
+                <li>1 tsp Coriander powder</li>
+                <li>Salt to taste</li>
+                <li>Kasuri methi (dried fenugreek) – 1 tsp</li>
+            </ul>
+        </div>
+
+        <div class="sectiom">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Heat oil and butter in a pan. Add onions and sauté until golden brown.</li>
+                <li>Add ginger-garlic paste and cook for 1–2 mins.</li>
+                <li>Add tomato puree and cook until oil separates.</li>
+                <li>Add turmeric, chili powder, coriander powder, and salt. Mix well.</li>
+                <li>Add cream, garam masala, and crushed kasuri methi. Stir gently.</li>
+                <li>Add paneer cubes and cook for 5 minutes.</li>
+                <li>Serve hot with naan, roti, or rice!</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

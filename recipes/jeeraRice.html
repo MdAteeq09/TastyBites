@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeera Rice Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Jeera Rice</h1>
+        <img src="../images/jeerarice.jpg" alt="Jeera Rice" class="recipe-img">
+
+        <div class="recipie-info">
+            <p><strong>Category:</strong> Lunch</p>
+            <p><strong>Prep Time:</strong> 20 mins | <strong>Cook Time:</strong> 15 mins</p>
+            <p><strong>Servings:</strong> 3–4</p>
+        </div>
+
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>1 cup Basmati Rice</li>
+                <li>2 cups Water</li>
+                <li>1 tbsp Ghee or Oil</li>
+                <li>1 tsp Cumin Seeds (Jeera)</li>
+                <li>Salt to taste</li>
+                <li>Optional: Chopped Coriander</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Wash and soak basmati rice for 30 minutes. Drain the water.</li>
+                <li>Heat ghee in a pan. Add cumin seeds and let them crackle.</li>
+                <li>Add the soaked rice and sauté gently for 2 minutes.</li>
+                <li>Add 2 cups of water and salt. Mix well.</li>
+                <li>Cover and cook on low flame until rice is fully cooked and water is absorbed.</li>
+                <li>Fluff with fork and garnish with coriander.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </div>
+    <script src="recipe.js"></script>
+
+
+</body>
+
+</html>

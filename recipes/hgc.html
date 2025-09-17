@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honey Garlic Chicken Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Honey Garlic Chicken</h1>
+        <img src="../images/hgc.jpg" alt="Honey Garlic Chicken" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Gym Lovers </p>
+            <p><strong>Prep Time:</strong> 10 mins | <strong>Cook Time:</strong> 20 mins</p>
+            <p><strong>Servings:</strong> 2</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>2 Chicken Breasts (boneless, cut into cubes)</li>
+                <li>1 tbsp Olive Oil</li>
+                <li>3 Garlic Cloves (minced)</li>
+                <li>3 tbsp Honey</li>
+                <li>2 tbsp Soy Sauce (low sodium)</li>
+                <li>1 tsp Apple Cider Vinegar or Lemon Juice</li>
+                <li>Salt and Pepper to taste</li>
+                <li>Sesame Seeds (optional, for garnish)</li>
+                <li>Chopped Spring Onions (for garnish)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Season chicken cubes with salt and pepper.</li>
+                <li>Heat olive oil in a non-stick pan over medium heat.</li>
+                <li>Cook chicken until golden brown on all sides. Remove and keep aside.</li>
+                <li>In the same pan, add minced garlic and sauté for 30 seconds.</li>
+                <li>Add honey, soy sauce, and vinegar. Stir and simmer for 1–2 minutes.</li>
+                <li>Return chicken to the pan and coat with the sauce.</li>
+                <li>Cook for another 3–4 minutes until the sauce thickens slightly.</li>
+                <li>Garnish with sesame seeds and spring onions. Serve hot with brown rice or quinoa.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

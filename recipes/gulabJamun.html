@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulab Jamun Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Gulab Jamun</h1>
+        <img src="../images/gulabjamun.jpg" alt="Gulab Jamun" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Dessert</p>
+            <p><strong>Prep Time:</strong> 20 mins | <strong>Cook Time:</strong> 30 mins</p>
+            <p><strong>Servings:</strong> 12–15 balls</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>1 cup Milk Powder</li>
+                <li>1/4 cup All-Purpose Flour (Maida)</li>
+                <li>2 tbsp Ghee</li>
+                <li>1/4 cup Milk (warm, as needed to form dough)</li>
+                <li>1/4 tsp Baking Soda</li>
+                <li>Oil or Ghee for frying</li>
+                <li>1.5 cups Sugar</li>
+                <li>1.5 cups Water</li>
+                <li>2–3 Cardamom Pods (crushed)</li>
+                <li>Rose Water (optional)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>In a bowl, mix milk powder, flour, baking soda, and ghee.</li>
+                <li>Gradually add warm milk to make a soft dough. Rest for 10 mins.</li>
+                <li>Divide into small smooth balls without cracks.</li>
+                <li>In a pan, boil sugar, water, and cardamom to make syrup. Add rose water if using. Keep warm.</li>
+                <li>Heat oil/ghee on medium flame. Fry jamuns until golden brown.</li>
+                <li>Drain and immediately soak them in warm sugar syrup for at least 1 hour.</li>
+                <li>Serve warm or chilled as desired.</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>

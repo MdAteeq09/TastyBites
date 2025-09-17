@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poha Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css"> </head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Poha</h1>
+        <img src="../images/poha.jpg" alt="Poha" class="recipe-img">
+        <div class="recipe-info">
+            <p><strong>Category:</strong> Breakfast</p>
+            <p><strong>Prep Time:</strong> 10 mins | <strong>Cook Time:</strong> 15 mins</p>
+            <p><strong>Servings:</strong> 2</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>1 cup Poha (flattened rice)</li>
+                <li>1 Onion, finely chopped</li>
+                <li>1 Green chili, chopped</li>
+                <li>1/2 tsp Mustard seeds</li>
+                <li>1/4 tsp Turmeric</li>
+                <li>Salt to taste</li>
+                <li>Curry leaves, Lemon juice, Coriander for garnish</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Rinse the poha in a sieve under running water. Drain and keep aside.</li>
+                <li>Heat oil in a pan. Add mustard seeds, curry leaves, and green chili.</li>
+                <li>Add onions and sauté until soft. Add turmeric and salt.</li>
+                <li>Add poha and mix well. Cook for 2-3 mins.</li>
+                <li>Turn off the heat and add lemon juice. Garnish with coriander.</li>
+                <li>Serve hot!</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+
+</body>
+
+</html>

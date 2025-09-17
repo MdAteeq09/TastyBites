@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jalebi Recipe - TastyBites</title>
+    <link rel="icon" href="logo/logo..png">
+    <link rel="stylesheet" href="recipes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="recipe-container">
+        <div class="home-top-link">
+            <a href="../index.php" class="top-home-btn">← Home</a>
+        </div>
+        <h1 class="recipe-title">Jalebi</h1>
+        <img src="../images/jalebi.jpg" alt="Jalebi" class="recipe-img">
+
+        <div class="recepi-info">
+            <p><strong>Category:</strong> Dessert</p>
+            <p><strong>Prep Time:</strong> 15 mins | <strong>Fermentation:</strong> 6–8 hrs | <strong>Cook Time:</strong> 20 mins</p>
+            <p><strong>Servings:</strong> 4</p>
+        </div>
+
+        <div class="section">
+
+            <div class="speak-buttons">
+                <button class="speak-btn" onclick="readRecipe()">
+                    <i class="fas fa-volume-up"></i> Read Recipe
+                </button>
+                <button class="speak-btn stop" onclick="stopReading()">
+                    <i class="fas fa-stop-circle"></i> Stop
+                </button>
+            </div>
+
+            <h2><i class="fas fa-utensils"></i> Ingredients</h2>
+            <ul>
+                <li>1 cup All-Purpose Flour (Maida)</li>
+                <li>2 tbsp Cornflour</li>
+                <li>1/4 tsp Baking Powder</li>
+                <li>1/2 cup Yogurt (curd)</li>
+                <li>Water as needed (to make batter)</li>
+                <li>1 pinch Yellow/Orange Food Color (optional)</li>
+                <li>Oil or Ghee (for frying)</li>
+            </ul>
+
+            <p><strong>For Sugar Syrup:</strong></p>
+            <ul>
+                <li>1 cup Sugar</li>
+                <li>1/2 cup Water</li>
+                <li>1/4 tsp Cardamom Powder</li>
+                <li>1/2 tsp Lemon Juice</li>
+                <li>A few strands of Saffron (optional)</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><i class="fas fa-blender"></i> Instructions</h2>
+            <ol>
+                <li>Mix maida, cornflour, baking powder, yogurt, and water to make a smooth, flowing batter. Add food color if using.</li>
+                <li>Cover and ferment the batter in a warm place for 6–8 hours.</li>
+                <li>Meanwhile, prepare sugar syrup by boiling sugar and water until sticky (1-string consistency). Add lemon juice, cardamom powder, and saffron. Keep warm.</li>
+                <li>Heat oil/ghee in a wide pan. Fill the batter into a squeeze bottle or piping bag.</li>
+                <li>Squeeze spiral shapes into hot oil. Fry on medium heat until golden and crisp.</li>
+                <li>Immediately dip the fried jalebis into warm sugar syrup for a few seconds.</li>
+                <li>Remove and serve hot. Enjoy with rabri for extra indulgence!</li>
+            </ol>
+        </div>
+
+        <div class="review-section">
+            <h2><i class="fas fa-comments"></i> Leave a Review</h2>
+            <form class="review-form">
+                <label for="review-name">Your Name:</label>
+                <input type="text" id="review-name" required/>
+
+                <label for="review-message">Your Review:</label>
+                <textarea id="review-message" rows="4" required></textarea>
+
+                <button type="submit">Submit Review</button>
+            </form>
+        </div>
+
+    </div>
+    <script src="recipe.js"></script>
+
+</body>
+
+</html>
